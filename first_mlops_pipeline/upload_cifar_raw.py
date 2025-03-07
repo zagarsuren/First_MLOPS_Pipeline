@@ -8,7 +8,7 @@ from tensorflow.keras.datasets import cifar10
 
 def save_numpy_arrays(data, labels, data_filename, labels_filename):
     import argparse
-    import os
+    import os       
 
     import numpy as np
     from clearml import Dataset
